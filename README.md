@@ -15,7 +15,6 @@ def process_data():
     kind=[]
     b=y.median()
     for i in y:
-
         if i>=b:
             kind.append(1)
         if i<b:
